@@ -4,7 +4,8 @@
   "description": "",
   "main": "aboutus.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Joe",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
   }
 }
